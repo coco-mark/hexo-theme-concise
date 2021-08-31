@@ -4,6 +4,7 @@
       <%- partial('post/title') %>
       <% if (item.layout != 'page'){ %>
         <time datetime="<%= item.date.toDate().toISOString() %>"><%= item.date.format(config.date_format) %></time>
+        <span><%= config.author %></span>
       <% } %>
     </header>
     <div class="entry">

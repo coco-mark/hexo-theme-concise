@@ -29,3 +29,6 @@ google_analytics:
 highlightjs: 
   enable: true
   theme: googlecode
+
+# 不蒜子访问量统计
+busuanzi: true

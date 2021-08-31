@@ -7,5 +7,8 @@
   %>
   <div class="categories">
     <%- cats.join(', ') %>
+    <% if (theme.busuanzi){ %>
+      <span id="busuanzi_container_page_pv" class="alignright">views: <span id="busuanzi_value_page_pv"></span></span>
+    <% } %>
   </div>
 <% } %>
