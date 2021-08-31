@@ -51,6 +51,10 @@ addthis:
   pinterest: true
 
 google_analytics:
+
+hithlightjs: 
+  enable: true
+  theme: googlecode
 ```
 
 ### Thanks

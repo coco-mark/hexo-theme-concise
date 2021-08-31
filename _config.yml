@@ -17,11 +17,15 @@ twitter:
   tweet_count: 5
 
 addthis:
-  enable: true
+  enable: false
   pubid:
-  facebook: true
-  twitter: true
-  google: true
-  pinterest: true
+  facebook: false
+  twitter: false
+  google: false
+  pinterest: false
 
 google_analytics:
+
+highlightjs: 
+  enable: true
+  theme: googlecode
