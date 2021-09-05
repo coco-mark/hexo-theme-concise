@@ -1,4 +1,4 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/jquery/jquery.min.js"></script>
 
 <% if (config.disqus_shortname){ %>
 <script type="text/javascript">
@@ -16,8 +16,8 @@
 
 <% if (theme.highlightjs.enable) { %>
 <!-- Highlight.js -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/<%= theme.highlightjs.theme%>.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+<link rel="stylesheet" href="/highlight/styles/<%= theme.highlightjs.theme%>.min.css">
+<script src="/highlight/highlight.min.js"></script>
 <script>
     hljs.initHighlightingOnLoad();
 </script>
@@ -25,5 +25,5 @@
 
 <% if (theme.busuanzi){ %>
     <!-- 不蒜子统计 -->
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script async src="/busuanzi/busuanzi.pure.mini.js"></script>
   <% } %>
