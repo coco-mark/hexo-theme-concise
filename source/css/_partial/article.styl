@@ -5,6 +5,10 @@ article
   position relative
   background #fff
   box-shadow: 0 -1px 0 #e5e5e5, 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+  font-family: Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  color: #202124;
 
   @media screen and (max-width: 900px)
     margin 8px -10px 15px -10px
@@ -24,7 +28,7 @@ article
           vertical-align super
 
   .post-content
-    padding 25px 20px 25px 20px
+    padding 40px
     margin-bottom 24px
     position relative
     @media screen and (max-width: 600px)
@@ -122,8 +126,16 @@ article
   .entry
     text-align justify
     line-height 1.6
+    margin-top: 25px;
     p, blockquote, ul, ol, dl, table, iframe, h3, h4, h5, h6, .video-container
       margin-top 15px
+      
+    table
+      border-collapse: collapse;
+      
+    table td, th
+      border: 1px solid #777
+      padding: 4px;
 
     blockquote
       border-top 1px solid color-border
@@ -177,13 +189,13 @@ article
         margin-top 0
 
     h1, h2
-      font-weight normal
+      font-weight 500
       border-bottom 1px solid color-border
       padding-bottom 10px
       margin-top 20px
 
     h3, h4, h5, h6
-      font-weight normal
+      font-weight 500
 
     img, video
       max-width 100%
